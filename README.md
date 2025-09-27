@@ -37,19 +37,22 @@ Elixr combines a **local rule-based engine** (always available offline) with an 
 Download the project and unzip:
 ```bash
 unzip elixr-complete.zip
-cd elixr-llm-complete
+cd elixr-complete
+```
 2. Install Dependencies
 Run the following code on your command prompt/terminal:
->>> pip install flask openai python-dotenv
+```bash
+pip install flask openai python-dotenv
+```
 3. Run Without an API Key (Offline Mode)
 If you don’t have an OpenAI API key, the system will still work in offline mode:
 Execute Elixr.cmd in the project root.
 or
 
 Run the following command on your terminal:
-
->>> python server.py
-
+```bash
+python server.py
+```
 Open http://127.0.0.1:5000/ in your browser.
 
 Diagnoses will come from the rule-based local system.
@@ -58,10 +61,13 @@ Patient database and OCR tool will work fully.
 
 4. Run With an OpenAI API Key (LLM Mode)
 Paste your OpenAI api key on the .env file located in the project root at 'sk-your-real-key-here'
+```bash
 OPENAI_API_KEY=sk-your-real-key-here
-
+```
 Start the server:
->>> python server.py
+```bash
+python server.py
+```
 Open http://127.0.0.1:5000/ in your browser.
 _________________________________________________________________________________________________________________________________________________________________________
 Local rule-based diagnosis is still the first step.
