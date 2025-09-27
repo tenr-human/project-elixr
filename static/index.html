@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elixr - Diagnosis & Patient Database with OCR</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="app-root">
+    <!-- Dashboard -->
+    <div id="dashboard" class="centered">
+      <h1>Welcome to Elixr</h1>
+      <div class="menu">
+        <div class="card" onclick="showScreen('diagnosisScreen')">🩺 Diagnosis</div>
+        <div class="card" onclick="showScreen('databaseScreen')">📋 Patient Database</div>
+        <div class="card" onclick="showScreen('cloudScreen')">☁️ Cloud OCR</div>
+      </div>
+    </div>
+
+    <!-- Diagnosis Screen -->
+    <div id="diagnosisScreen" class="centered hidden">
+      <h1>Diagnosis Assistant</h1>
+      <textarea id="queryInput" placeholder="Describe symptoms or ask a medical question..."></textarea>
+      <button onclick="diagnose()">Diagnose</button>
+      <div id="diagnosisResult" class="result-box">Describe symptoms and click Diagnose to get results.</div>
+      <button onclick="goBack()">Back to Dashboard</button>
+    </div>
+
+    <!-- Patient Database Screen -->
+    <div id="databaseScreen" class="centered hidden">
+      <h1>Patient Database - Ask AI</h1>
+      <textarea id="patientQueryInput" placeholder="Type any question about the patient records here..."></textarea>
+      <button id="askBtn">Ask AI</button>
+      <div id="patientAiAnswer" class="result-box">Ask a question above and get detailed answers here.</div>
+      <input id="searchInput" placeholder="Search patient records..." oninput="filterTable()" />
+      <div class="table-container">
+        <table id="patientTable">
+          <thead>
+            <tr>
+              <th>ID</th><th>Name</th><th>Diagnosis</th><th>Date of Admission</th>
+              <th>Previous Ailments</th><th>Previous Diagnosis</th><th>Other Conditions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>Add New Patient</h2>
+      <div class="form-container">
+        <input id="pName" placeholder="Name">
+        <input id="pDiagnosis" placeholder="Diagnosis">
+        <input id="pDate" type="date" placeholder="Date of Admission">
+        <input id="pPrevAilments" placeholder="Previous Ailments">
+        <input id="pPrevDiagnosis" placeholder="Previous Diagnosis">
+        <input id="pOther" placeholder="Other Conditions">
+        <button id="addBtn" onclick="addPatient()">Add Patient</button>
+      </div>
+
+      <button id="resetBtn">Clear and Reset</button>
+      <button id="backBtn2">Back to Dashboard</button>
+    </div>
+
+    <!-- Cloud OCR Screen -->
+    <div id="cloudScreen" class="centered hidden">
+      <h1>Cloud - OCR Tool</h1>
+      <input type="file" id="imageInput" accept="image/*" />
+      <p id="status"></p>
+      <pre id="output"></pre>
+      <button onclick="goBack()">Back to Dashboard</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="/static/script.js"></script>
+</body>
+</html>

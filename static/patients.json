@@ -1,0 +1,182 @@
+[
+  {
+    "patient_id": 1,
+    "name": "John Smith",
+    "diagnosis": "Unstable Angina",
+    "date_of_admission": "2025-09-01",
+    "previous_ailments": "Hypertension",
+    "previous_diagnosis": "Essential Hypertension",
+    "other_conditions": "Smoker"
+  },
+  {
+    "patient_id": 2,
+    "name": "Maria Garcia",
+    "diagnosis": "Type 2 Diabetes",
+    "date_of_admission": "2025-09-05",
+    "previous_ailments": "Obesity",
+    "previous_diagnosis": "Hyperlipidemia",
+    "other_conditions": "Family history of diabetes"
+  },
+  {
+    "patient_id": 3,
+    "name": "Ahmed Khan",
+    "diagnosis": "Pneumonia",
+    "date_of_admission": "2025-08-20",
+    "previous_ailments": "Asthma",
+    "previous_diagnosis": "Allergic Rhinitis",
+    "other_conditions": "Seasonal allergies"
+  },
+  {
+    "patient_id": 4,
+    "name": "Emily Davis",
+    "diagnosis": "Acute Appendicitis",
+    "date_of_admission": "2025-09-10",
+    "previous_ailments": "None",
+    "previous_diagnosis": "None",
+    "other_conditions": "Vegetarian"
+  },
+  {
+    "patient_id": 5,
+    "name": "Hiroshi Tanaka",
+    "diagnosis": "Ischemic Stroke",
+    "date_of_admission": "2025-07-29",
+    "previous_ailments": "Hypertension",
+    "previous_diagnosis": "Transient Ischemic Attack",
+    "other_conditions": "Ex-smoker"
+  },
+  {
+    "patient_id": 6,
+    "name": "Olga Petrova",
+    "diagnosis": "Rheumatoid Arthritis",
+    "date_of_admission": "2025-05-15",
+    "previous_ailments": "Osteoarthritis",
+    "previous_diagnosis": "Chronic Back Pain",
+    "other_conditions": "Gluten intolerance"
+  },
+  {
+    "patient_id": 7,
+    "name": "James Johnson",
+    "diagnosis": "Asthma Exacerbation",
+    "date_of_admission": "2025-09-02",
+    "previous_ailments": "Asthma",
+    "previous_diagnosis": "Allergic Rhinitis",
+    "other_conditions": "Lactose intolerance"
+  },
+  {
+    "patient_id": 8,
+    "name": "Linda Lee",
+    "diagnosis": "Cholelithiasis",
+    "date_of_admission": "2025-06-18",
+    "previous_ailments": "None",
+    "previous_diagnosis": "None",
+    "other_conditions": "Blood type O"
+  },
+  {
+    "patient_id": 9,
+    "name": "Carlos Sanchez",
+    "diagnosis": "Myocardial Infarction",
+    "date_of_admission": "2025-09-11",
+    "previous_ailments": "Type 2 Diabetes",
+    "previous_diagnosis": "Peripheral Neuropathy",
+    "other_conditions": "Excess alcohol intake"
+  },
+  {
+    "patient_id": 10,
+    "name": "Emma Brown",
+    "diagnosis": "Chronic Kidney Disease",
+    "date_of_admission": "2025-08-24",
+    "previous_ailments": "Hypertension",
+    "previous_diagnosis": "Proteinuria",
+    "other_conditions": "Anemia"
+  },
+  {
+    "patient_id": 11,
+    "name": "Chen Wei",
+    "diagnosis": "Peptic Ulcer",
+    "date_of_admission": "2025-09-08",
+    "previous_ailments": "Gastritis",
+    "previous_diagnosis": "Helicobacter pylori Infection",
+    "other_conditions": "Ex-smoker"
+  },
+  {
+    "patient_id": 12,
+    "name": "Isabella Rossi",
+    "diagnosis": "Breast Cancer",
+    "date_of_admission": "2025-03-12",
+    "previous_ailments": "None",
+    "previous_diagnosis": "None",
+    "other_conditions": "Family history of cancer"
+  },
+  {
+    "patient_id": 13,
+    "name": "Daniel Evans",
+    "diagnosis": "Epilepsy",
+    "date_of_admission": "2025-07-10",
+    "previous_ailments": "Head injury",
+    "previous_diagnosis": "Concussion",
+    "other_conditions": "Photosensitive"
+  },
+  {
+    "patient_id": 14,
+    "name": "Ayesha Patel",
+    "diagnosis": "Graves Disease",
+    "date_of_admission": "2025-08-16",
+    "previous_ailments": "Goiter",
+    "previous_diagnosis": "None",
+    "other_conditions": "Vegetarian"
+  },
+  {
+    "patient_id": 15,
+    "name": "Paul Müller",
+    "diagnosis": "Chronic Obstructive Pulmonary Disease",
+    "date_of_admission": "2025-09-03",
+    "previous_ailments": "Chronic Bronchitis",
+    "previous_diagnosis": "Ex-smoker",
+    "other_conditions": "Allergic to penicillin"
+  },
+  {
+    "patient_id": 16,
+    "name": "Anna Kowalska",
+    "diagnosis": "Endometriosis",
+    "date_of_admission": "2025-04-22",
+    "previous_ailments": "None",
+    "previous_diagnosis": "None",
+    "other_conditions": "Vegetarian"
+  },
+  {
+    "patient_id": 17,
+    "name": "David Wilson",
+    "diagnosis": "Heart Failure",
+    "date_of_admission": "2025-09-06",
+    "previous_ailments": "Coronary Artery Disease",
+    "previous_diagnosis": "Old myocardial infarction",
+    "other_conditions": "Diabetic"
+  },
+  {
+    "patient_id": 18,
+    "name": "Sophia Kim",
+    "diagnosis": "Iron Deficiency Anemia",
+    "date_of_admission": "2025-08-30",
+    "previous_ailments": "Menorrhagia",
+    "previous_diagnosis": "None",
+    "other_conditions": "Vegetarian"
+  },
+  {
+    "patient_id": 19,
+    "name": "Ali Hassan",
+    "diagnosis": "Chronic Hepatitis B",
+    "date_of_admission": "2025-06-15",
+    "previous_ailments": "None",
+    "previous_diagnosis": "None",
+    "other_conditions": "Frequent traveler"
+  },
+  {
+    "patient_id": 20,
+    "name": "Laura Martinez",
+    "diagnosis": "Ulcerative Colitis",
+    "date_of_admission": "2025-09-09",
+    "previous_ailments": "Irritable Bowel Syndrome",
+    "previous_diagnosis": "Diverticulitis",
+    "other_conditions": "Lactose intolerance"
+  }
+]
