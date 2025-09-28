@@ -77,6 +77,7 @@ If no match is found, the system calls OpenAI’s API for fallback.
 AI answers can provide richer medical context, but doctors remain the final decision-makers.
 
 🛡️ Notes
+
 Elixr does not replace doctors — it is an assistant to improve efficiency.
 
 All patient data is stored in static/patients.json.
@@ -86,6 +87,7 @@ Doctors and admins can extend the symptom map or connect ambulance feeds.
 Without an API key, everything still works offline.
 
 👩‍⚕️ Future Directions
+
 Real-time ambulance integration for automatic triage
 
 Doctor dashboards with burnout-monitoring alerts
@@ -93,6 +95,7 @@ Doctor dashboards with burnout-monitoring alerts
 Expanded symptom coverage and multimodal inputs (voice, video, wearables)
 
 🖥️ Tech Stack
+
 Frontend: HTML, CSS, JavaScript (Tesseract.js for OCR)
 
 Backend: Python (Flask)
@@ -100,4 +103,5 @@ Backend: Python (Flask)
 AI: Local rule-based diagnosis + OpenAI LLM fallback
 
 ✅ Summary
+
 Elixr reduces wait times, combats staff burnout, and improves hospital efficiency by automating routine tasks while keeping doctors in control of final decisions.
