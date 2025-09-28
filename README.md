@@ -39,12 +39,12 @@ Download the project and unzip:
 unzip elixr-complete.zip
 cd elixr-complete
 ```
-2. Install Dependencies
+### 2. Install Dependencies
 Run the following code on your command prompt/terminal:
 ```bash
 pip install flask openai python-dotenv
 ```
-3. Run Without an API Key (Offline Mode)
+### 3. Run Without an API Key (Offline Mode)
 If you don’t have an OpenAI API key, the system will still work in offline mode:
 Execute Elixr.cmd in the project root.
 or
@@ -59,7 +59,7 @@ Diagnoses will come from the rule-based local system.
 
 Patient database and OCR tool will work fully.
 
-4. Run With an OpenAI API Key (LLM Mode)
+### 4. Run With an OpenAI API Key (LLM Mode)
 Paste your OpenAI api key on the .env file located in the project root at 'sk-your-real-key-here'
 ```bash
 OPENAI_API_KEY=sk-your-real-key-here
@@ -76,7 +76,7 @@ If no match is found, the system calls OpenAI’s API for fallback.
 
 AI answers can provide richer medical context, but doctors remain the final decision-makers.
 
-🛡️ Notes
+### 🛡️ Notes
 
 Elixr does not replace doctors — it is an assistant to improve efficiency.
 
@@ -86,7 +86,7 @@ Doctors and admins can extend the symptom map or connect ambulance feeds.
 
 Without an API key, everything still works offline.
 
-👩‍⚕️ Future Directions
+### 👩‍⚕️ Future Directions
 
 Real-time ambulance integration for automatic triage
 
@@ -94,7 +94,7 @@ Doctor dashboards with burnout-monitoring alerts
 
 Expanded symptom coverage and multimodal inputs (voice, video, wearables)
 
-🖥️ Tech Stack
+### 🖥️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript (Tesseract.js for OCR)
 
@@ -102,6 +102,6 @@ Backend: Python (Flask)
 
 AI: Local rule-based diagnosis + OpenAI LLM fallback
 
-✅ Summary
+### ✅ Summary
 
 Elixr reduces wait times, combats staff burnout, and improves hospital efficiency by automating routine tasks while keeping doctors in control of final decisions.
