@@ -36,8 +36,8 @@ Elixr combines a **local rule-based engine** (always available offline) with an 
 ### 1. Clone / Download
 Download the project and unzip:
 ```bash
-unzip elixr-complete.zip
-cd elixr-complete
+unzip project-elixr-main.zip
+cd project-elixr-main
 ```
 ### 2. Install Dependencies
 Run the following code on your command prompt/terminal:
@@ -47,7 +47,8 @@ pip install flask openai python-dotenv
 ### 3. Run Without an API Key (Offline Mode)
 If you don’t have an OpenAI API key, the system will still work in offline mode:
 Execute Elixr.cmd in the project root.
-or
+
+Or
 
 Run the following command on your terminal:
 ```bash
